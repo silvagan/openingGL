@@ -7,9 +7,6 @@
       "RelativeMoniker": "D:0:0:{BE8BC6C2-4ED8-4A4F-B1C7-F3136B45948F}|openingGL.vcxproj|solutionrelative:Source.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{BE8BC6C2-4ED8-4A4F-B1C7-F3136B45948F}|openingGL.vcxproj|C:\\USERS\\SILVA\\DOCUMENTS\\DEPENDENCIES\\INCLUDE\\GLAD\\GLAD.H||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{BE8BC6C2-4ED8-4A4F-B1C7-F3136B45948F}|openingGL.vcxproj|C:\\Users\\silva\\Desktop\\glad.c||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
     }
   ],
@@ -20,11 +17,11 @@
       "DocumentGroups": [
         {
           "DockedWidth": 226,
-          "SelectedChildIndex": 2,
+          "SelectedChildIndex": 1,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 1,
               "Title": "glad.c",
               "DocumentMoniker": "C:\\Users\\silva\\Desktop\\glad.c",
               "RelativeDocumentMoniker": "..\\..\\..\\Desktop\\glad.c",
@@ -32,21 +29,7 @@
               "RelativeToolTip": "..\\..\\..\\Desktop\\glad.c",
               "ViewState": "AgIAACoAAAAAAAAAAAAAABkAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000423|",
-              "WhenOpened": "2025-01-13T17:45:19.015Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "glad.h",
-              "DocumentMoniker": "C:\\Users\\silva\\Documents\\dependencies\\include\\glad\\glad.h",
-              "RelativeDocumentMoniker": "..\\..\\dependencies\\include\\glad\\glad.h",
-              "ToolTip": "C:\\Users\\silva\\Documents\\dependencies\\include\\glad\\glad.h",
-              "RelativeToolTip": "..\\..\\dependencies\\include\\glad\\glad.h",
-              "ViewState": "AgIAAAkAAAAAAAAAAAAAABoAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
-              "WhenOpened": "2025-01-13T17:43:59.093Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-01-13T17:45:19.015Z"
             },
             {
               "$type": "Document",
@@ -56,7 +39,7 @@
               "RelativeDocumentMoniker": "Source.cpp",
               "ToolTip": "C:\\Users\\silva\\Documents\\dev\\openingGL\\Source.cpp",
               "RelativeToolTip": "Source.cpp",
-              "ViewState": "AgIAAIoAAAAAAAAAAAAAAJsAAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAACUAAAAiAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
               "WhenOpened": "2025-01-13T17:32:34.845Z",
               "EditorCaption": ""
