@@ -11,7 +11,7 @@ https://learnopengl.com/
 
 ~~Hello Triangle~~
 
-Shaders
+* Shaders
 
 Textures
 
