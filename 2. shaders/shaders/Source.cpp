@@ -45,10 +45,10 @@ int main()
     }
 
     float vertices[] = {
-         0.5f, -0.5f, 0.0f, 1.0f, 0.0f, 0.0f, // left
-        -0.5f, -0.5f, 0.0f, 0.0f, 1.0f, 0.0f, // right
-         0.0f,  0.5f, 0.0f, 0.0f, 0.0f, 1.0f  // top 
-        //-0.5f,  0.5f, 0.0f   // top left 
+         0.5f,  0.5f, 0.0f, 1.0f, 0.0f, 0.0f, // left
+        -0.5f,  0.5f, 0.0f, 0.0f, 1.0f, 0.0f, // right
+         0.0f, -0.5f, 0.0f, 0.0f, 0.0f, 1.0f  // top 
+         //-0.5f,  0.5f, 0.0f   // top left 
     };
     unsigned int indices[] = {  // note that we start from 0!
         0, 1, 2,  // first Triangle
@@ -56,6 +56,11 @@ int main()
     };
 
     Shader ourShader("sh/vertex.glsl", "sh/fragment.glsl");
+
+    ourShader.use();
+    float offset = 0.0f;
+    int loc = glGetUniformLocation(ourShader.ID, "offset");
+    glUniform3f(loc, offset, 0.0f, 0.0f);
 
     unsigned int VBO, VAO, EBO;
     glGenVertexArrays(1, &VAO);
@@ -73,7 +78,7 @@ int main()
     glEnableVertexAttribArray(0);
 
 
-    glVertexAttribPointer(1, 3, GL_FLOAT, GL_FALSE, 6 * sizeof(float), (void*)(3*sizeof(float)));
+    glVertexAttribPointer(1, 3, GL_FLOAT, GL_FALSE, 6 * sizeof(float), (void*)(3 * sizeof(float)));
     glEnableVertexAttribArray(1);
 
     glBindBuffer(GL_ARRAY_BUFFER, 0);
@@ -101,9 +106,9 @@ int main()
         ourShader.use();
 
         float timeValue = glfwGetTime();
-        float greenValue = (sin(timeValue) / 2.0f) + 0.5f;
-        int vertexColorLocation = glGetUniformLocation(ourShader.ID, "ourColor");
-        glUniform4f(vertexColorLocation, 0.0f, greenValue, 0.0f, 1.0f);
+        //float greenValue = (sin(timeValue) / 2.0f) + 0.5f;
+        //int vertexColorLocation = glGetUniformLocation(ourShader.ID, "ourColor");
+        //glUniform4f(vertexColorLocation, 0.0f, greenValue, 0.0f, 1.0f);
         glBindVertexArray(VAO); // seeing as we only have a single VAO there's no need to bind it every time, but we'll do so to keep things a bit more organized
         glDrawArrays(GL_TRIANGLES, 0, 3);
         glDrawElements(GL_TRIANGLES, 6, GL_UNSIGNED_INT, 0);

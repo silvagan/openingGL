@@ -11,6 +11,10 @@
       "RelativeMoniker": "D:0:0:{0EE93742-BC3B-4074-BE7F-1AA2D5DDD3AB}|shaders.vcxproj|solutionrelative:sh\\vertex.glsl||{8B382828-6202-11D1-8870-0000F87579D2}"
     },
     {
+      "AbsoluteMoniker": "D:0:0:{0EE93742-BC3B-4074-BE7F-1AA2D5DDD3AB}|shaders.vcxproj|C:\\Users\\silva\\Documents\\dev\\openingGL\\2. shaders\\shaders\\sh\\fragment.glsl||{8B382828-6202-11D1-8870-0000F87579D2}",
+      "RelativeMoniker": "D:0:0:{0EE93742-BC3B-4074-BE7F-1AA2D5DDD3AB}|shaders.vcxproj|solutionrelative:sh\\fragment.glsl||{8B382828-6202-11D1-8870-0000F87579D2}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{0EE93742-BC3B-4074-BE7F-1AA2D5DDD3AB}|shaders.vcxproj|C:\\Users\\silva\\Documents\\dev\\openingGL\\2. shaders\\shaders\\Shader.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
       "RelativeMoniker": "D:0:0:{0EE93742-BC3B-4074-BE7F-1AA2D5DDD3AB}|shaders.vcxproj|solutionrelative:Shader.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
     }
@@ -22,8 +26,21 @@
       "DocumentGroups": [
         {
           "DockedWidth": 226,
-          "SelectedChildIndex": 2,
+          "SelectedChildIndex": 3,
           "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "fragment.glsl",
+              "DocumentMoniker": "C:\\Users\\silva\\Documents\\dev\\openingGL\\2. shaders\\shaders\\sh\\fragment.glsl",
+              "RelativeDocumentMoniker": "sh\\fragment.glsl",
+              "ToolTip": "C:\\Users\\silva\\Documents\\dev\\openingGL\\2. shaders\\shaders\\sh\\fragment.glsl",
+              "RelativeToolTip": "sh\\fragment.glsl",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001001|",
+              "WhenOpened": "2025-01-15T08:16:20.92Z",
+              "EditorCaption": ""
+            },
             {
               "$type": "Document",
               "DocumentIndex": 1,
@@ -32,14 +49,14 @@
               "RelativeDocumentMoniker": "sh\\vertex.glsl",
               "ToolTip": "C:\\Users\\silva\\Documents\\dev\\openingGL\\2. shaders\\shaders\\sh\\vertex.glsl",
               "RelativeToolTip": "sh\\vertex.glsl",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAABAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001001|",
               "WhenOpened": "2025-01-15T07:07:36.564Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 3,
               "Title": "Shader.h",
               "DocumentMoniker": "C:\\Users\\silva\\Documents\\dev\\openingGL\\2. shaders\\shaders\\Shader.h",
               "RelativeDocumentMoniker": "Shader.h",
@@ -58,7 +75,7 @@
               "RelativeDocumentMoniker": "Source.cpp",
               "ToolTip": "C:\\Users\\silva\\Documents\\dev\\openingGL\\2. shaders\\shaders\\Source.cpp",
               "RelativeToolTip": "Source.cpp",
-              "ViewState": "AgIAAAUAAAAAAAAAAAAYwC0AAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAACoAAAAAAAAAAAAYwDgAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
               "WhenOpened": "2025-01-14T20:56:54.157Z",
               "EditorCaption": ""

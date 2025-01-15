@@ -1,3 +1,1 @@
-﻿  Source.cpp
-C:\Users\silva\Documents\dev\openingGL\2. shaders\shaders\Source.cpp(103,25): warning C4244: 'initializing': conversion from 'double' to 'float', possible loss of data
-  shaders.vcxproj -> C:\Users\silva\Documents\dev\openingGL\2. shaders\shaders\x64\Debug\shaders.exe
+﻿  shaders.vcxproj -> C:\Users\silva\Documents\dev\openingGL\2. shaders\shaders\x64\Debug\shaders.exe
