@@ -7,8 +7,12 @@
       "RelativeMoniker": "D:0:0:{06B97F0E-B0D8-44C6-9808-E5E8BDE24584}|textures.vcxproj|solutionrelative:Source.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{06B97F0E-B0D8-44C6-9808-E5E8BDE24584}|textures.vcxproj|C:\\Users\\silva\\Documents\\dev\\openingGL\\3. textures\\textures\\image.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
-      "RelativeMoniker": "D:0:0:{06B97F0E-B0D8-44C6-9808-E5E8BDE24584}|textures.vcxproj|solutionrelative:image.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+      "AbsoluteMoniker": "D:0:0:{06B97F0E-B0D8-44C6-9808-E5E8BDE24584}|textures.vcxproj|C:\\Users\\silva\\Documents\\dev\\openingGL\\3. textures\\textures\\shaders\\fragment.glsl||{8B382828-6202-11D1-8870-0000F87579D2}",
+      "RelativeMoniker": "D:0:0:{06B97F0E-B0D8-44C6-9808-E5E8BDE24584}|textures.vcxproj|solutionrelative:shaders\\fragment.glsl||{8B382828-6202-11D1-8870-0000F87579D2}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{06B97F0E-B0D8-44C6-9808-E5E8BDE24584}|textures.vcxproj|C:\\Users\\silva\\Documents\\dev\\openingGL\\3. textures\\textures\\shaders\\vertex.glsl||{8B382828-6202-11D1-8870-0000F87579D2}",
+      "RelativeMoniker": "D:0:0:{06B97F0E-B0D8-44C6-9808-E5E8BDE24584}|textures.vcxproj|solutionrelative:shaders\\vertex.glsl||{8B382828-6202-11D1-8870-0000F87579D2}"
     }
   ],
   "DocumentGroupContainers": [
@@ -18,19 +22,32 @@
       "DocumentGroups": [
         {
           "DockedWidth": 226,
-          "SelectedChildIndex": 1,
+          "SelectedChildIndex": 2,
           "Children": [
             {
               "$type": "Document",
               "DocumentIndex": 1,
-              "Title": "image.cpp",
-              "DocumentMoniker": "C:\\Users\\silva\\Documents\\dev\\openingGL\\3. textures\\textures\\image.cpp",
-              "RelativeDocumentMoniker": "image.cpp",
-              "ToolTip": "C:\\Users\\silva\\Documents\\dev\\openingGL\\3. textures\\textures\\image.cpp",
-              "RelativeToolTip": "image.cpp",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAEAAAAWAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
-              "WhenOpened": "2025-01-15T09:53:39.926Z",
+              "Title": "fragment.glsl",
+              "DocumentMoniker": "C:\\Users\\silva\\Documents\\dev\\openingGL\\3. textures\\textures\\shaders\\fragment.glsl",
+              "RelativeDocumentMoniker": "shaders\\fragment.glsl",
+              "ToolTip": "C:\\Users\\silva\\Documents\\dev\\openingGL\\3. textures\\textures\\shaders\\fragment.glsl",
+              "RelativeToolTip": "shaders\\fragment.glsl",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001001|",
+              "WhenOpened": "2025-01-16T17:51:56.972Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "vertex.glsl",
+              "DocumentMoniker": "C:\\Users\\silva\\Documents\\dev\\openingGL\\3. textures\\textures\\shaders\\vertex.glsl",
+              "RelativeDocumentMoniker": "shaders\\vertex.glsl",
+              "ToolTip": "C:\\Users\\silva\\Documents\\dev\\openingGL\\3. textures\\textures\\shaders\\vertex.glsl",
+              "RelativeToolTip": "shaders\\vertex.glsl",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001001|",
+              "WhenOpened": "2025-01-16T17:49:17.173Z",
               "EditorCaption": ""
             },
             {
@@ -41,9 +58,9 @@
               "RelativeDocumentMoniker": "Source.cpp",
               "ToolTip": "C:\\Users\\silva\\Documents\\dev\\openingGL\\3. textures\\textures\\Source.cpp",
               "RelativeToolTip": "Source.cpp",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAEAAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAACAAAAAMAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
-              "WhenOpened": "2025-01-15T09:46:27.988Z",
+              "WhenOpened": "2025-01-16T17:29:11.876Z",
               "EditorCaption": ""
             }
           ]
