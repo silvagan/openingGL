@@ -3,16 +3,20 @@
   "WorkspaceRootPath": "C:\\Users\\silva\\Documents\\dev\\openingGL\\3. textures\\textures\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{06B97F0E-B0D8-44C6-9808-E5E8BDE24584}|textures.vcxproj|C:\\Users\\silva\\Documents\\dev\\openingGL\\3. textures\\textures\\Source.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
-      "RelativeMoniker": "D:0:0:{06B97F0E-B0D8-44C6-9808-E5E8BDE24584}|textures.vcxproj|solutionrelative:Source.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{06B97F0E-B0D8-44C6-9808-E5E8BDE24584}|textures.vcxproj|C:\\Users\\silva\\Documents\\dev\\openingGL\\3. textures\\textures\\shaders\\fragment.glsl||{8B382828-6202-11D1-8870-0000F87579D2}",
       "RelativeMoniker": "D:0:0:{06B97F0E-B0D8-44C6-9808-E5E8BDE24584}|textures.vcxproj|solutionrelative:shaders\\fragment.glsl||{8B382828-6202-11D1-8870-0000F87579D2}"
     },
     {
+      "AbsoluteMoniker": "D:0:0:{06B97F0E-B0D8-44C6-9808-E5E8BDE24584}|textures.vcxproj|C:\\Users\\silva\\Documents\\dev\\openingGL\\3. textures\\textures\\shader.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{06B97F0E-B0D8-44C6-9808-E5E8BDE24584}|textures.vcxproj|solutionrelative:shader.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{06B97F0E-B0D8-44C6-9808-E5E8BDE24584}|textures.vcxproj|C:\\Users\\silva\\Documents\\dev\\openingGL\\3. textures\\textures\\shaders\\vertex.glsl||{8B382828-6202-11D1-8870-0000F87579D2}",
       "RelativeMoniker": "D:0:0:{06B97F0E-B0D8-44C6-9808-E5E8BDE24584}|textures.vcxproj|solutionrelative:shaders\\vertex.glsl||{8B382828-6202-11D1-8870-0000F87579D2}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{06B97F0E-B0D8-44C6-9808-E5E8BDE24584}|textures.vcxproj|C:\\Users\\silva\\Documents\\dev\\openingGL\\3. textures\\textures\\Source.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{06B97F0E-B0D8-44C6-9808-E5E8BDE24584}|textures.vcxproj|solutionrelative:Source.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
     }
   ],
   "DocumentGroupContainers": [
@@ -22,17 +26,17 @@
       "DocumentGroups": [
         {
           "DockedWidth": 226,
-          "SelectedChildIndex": 2,
+          "SelectedChildIndex": 0,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 0,
               "Title": "fragment.glsl",
               "DocumentMoniker": "C:\\Users\\silva\\Documents\\dev\\openingGL\\3. textures\\textures\\shaders\\fragment.glsl",
               "RelativeDocumentMoniker": "shaders\\fragment.glsl",
               "ToolTip": "C:\\Users\\silva\\Documents\\dev\\openingGL\\3. textures\\textures\\shaders\\fragment.glsl",
               "RelativeToolTip": "shaders\\fragment.glsl",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAABAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAABAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001001|",
               "WhenOpened": "2025-01-16T17:51:56.972Z",
               "EditorCaption": ""
@@ -45,20 +49,33 @@
               "RelativeDocumentMoniker": "shaders\\vertex.glsl",
               "ToolTip": "C:\\Users\\silva\\Documents\\dev\\openingGL\\3. textures\\textures\\shaders\\vertex.glsl",
               "RelativeToolTip": "shaders\\vertex.glsl",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAABAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAMAAAAnAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001001|",
               "WhenOpened": "2025-01-16T17:49:17.173Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 1,
+              "Title": "shader.h",
+              "DocumentMoniker": "C:\\Users\\silva\\Documents\\dev\\openingGL\\3. textures\\textures\\shader.h",
+              "RelativeDocumentMoniker": "shader.h",
+              "ToolTip": "C:\\Users\\silva\\Documents\\dev\\openingGL\\3. textures\\textures\\shader.h",
+              "RelativeToolTip": "shader.h",
+              "ViewState": "AgIAACcAAAAAAAAAAAAAAAwAAAAQAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
+              "WhenOpened": "2025-01-28T17:38:33.286Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
               "Title": "Source.cpp",
               "DocumentMoniker": "C:\\Users\\silva\\Documents\\dev\\openingGL\\3. textures\\textures\\Source.cpp",
               "RelativeDocumentMoniker": "Source.cpp",
               "ToolTip": "C:\\Users\\silva\\Documents\\dev\\openingGL\\3. textures\\textures\\Source.cpp",
               "RelativeToolTip": "Source.cpp",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAACAAAAAMAAAAAAAAAA==",
+              "ViewState": "AgIAACMAAAAAAAAAAAAAwFIAAABBAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
               "WhenOpened": "2025-01-16T17:29:11.876Z",
               "EditorCaption": ""
