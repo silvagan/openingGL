@@ -13,9 +13,9 @@ https://learnopengl.com/
 
 ~~Shaders~~
 
-* Textures
+~~Textures~~
 
-Transformations
+* Transformations (1/3)
 
 Coordinate Systems
 
