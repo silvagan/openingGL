@@ -135,8 +135,8 @@ int main() {
 		ourShader.setFloat("someUniform", 1.0f);
 
 		glm::mat4 trans = glm::mat4(1.0f);
-		trans = glm::translate(trans, glm::vec3(0.5f, -0.5f, 0.0f));
 		trans = glm::rotate(trans, (float)glfwGetTime(), glm::vec3(0.0f, 0.0f, 1.0f));
+		trans = glm::translate(trans, glm::vec3(0.5f, -0.5f, 0.0f));
 
 		glUniformMatrix4fv(glGetUniformLocation(ourShader.ID, "transform"), 1, GL_FALSE, glm::value_ptr(trans));
 
