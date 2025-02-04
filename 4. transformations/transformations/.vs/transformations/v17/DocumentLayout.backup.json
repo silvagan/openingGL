@@ -7,6 +7,10 @@
       "RelativeMoniker": "D:0:0:{90C48304-7DEE-443A-91D5-B20B0DF369D1}|transformations.vcxproj|solutionrelative:Source.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
     },
     {
+      "AbsoluteMoniker": "D:0:0:{90C48304-7DEE-443A-91D5-B20B0DF369D1}|transformations.vcxproj|C:\\Users\\silva\\Documents\\dev\\openingGL\\4. transformations\\transformations\\shaders\\fragment.glsl||{8B382828-6202-11D1-8870-0000F87579D2}",
+      "RelativeMoniker": "D:0:0:{90C48304-7DEE-443A-91D5-B20B0DF369D1}|transformations.vcxproj|solutionrelative:shaders\\fragment.glsl||{8B382828-6202-11D1-8870-0000F87579D2}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{90C48304-7DEE-443A-91D5-B20B0DF369D1}|transformations.vcxproj|C:\\Users\\silva\\Documents\\dev\\openingGL\\4. transformations\\transformations\\shaders\\vertex.glsl||{8B382828-6202-11D1-8870-0000F87579D2}",
       "RelativeMoniker": "D:0:0:{90C48304-7DEE-443A-91D5-B20B0DF369D1}|transformations.vcxproj|solutionrelative:shaders\\vertex.glsl||{8B382828-6202-11D1-8870-0000F87579D2}"
     },
@@ -22,11 +26,24 @@
       "DocumentGroups": [
         {
           "DockedWidth": 226,
-          "SelectedChildIndex": 2,
+          "SelectedChildIndex": 3,
           "Children": [
             {
               "$type": "Document",
               "DocumentIndex": 1,
+              "Title": "fragment.glsl",
+              "DocumentMoniker": "C:\\Users\\silva\\Documents\\dev\\openingGL\\4. transformations\\transformations\\shaders\\fragment.glsl",
+              "RelativeDocumentMoniker": "shaders\\fragment.glsl",
+              "ToolTip": "C:\\Users\\silva\\Documents\\dev\\openingGL\\4. transformations\\transformations\\shaders\\fragment.glsl",
+              "RelativeToolTip": "shaders\\fragment.glsl",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAABOAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001001|",
+              "WhenOpened": "2025-02-04T08:24:20.94Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
               "Title": "vertex.glsl",
               "DocumentMoniker": "C:\\Users\\silva\\Documents\\dev\\openingGL\\4. transformations\\transformations\\shaders\\vertex.glsl",
               "RelativeDocumentMoniker": "shaders\\vertex.glsl",
@@ -39,7 +56,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 3,
               "Title": "shader.h",
               "DocumentMoniker": "C:\\Users\\silva\\Documents\\dev\\openingGL\\4. transformations\\transformations\\shader.h",
               "RelativeDocumentMoniker": "shader.h",
@@ -47,7 +64,8 @@
               "RelativeToolTip": "shader.h",
               "ViewState": "AgIAAAwAAAAAAAAAAAAjwCkAAAAHAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
-              "WhenOpened": "2025-01-30T15:17:56.567Z"
+              "WhenOpened": "2025-01-30T15:17:56.567Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
@@ -55,9 +73,9 @@
               "Title": "Source.cpp",
               "DocumentMoniker": "C:\\Users\\silva\\Documents\\dev\\openingGL\\4. transformations\\transformations\\Source.cpp",
               "RelativeDocumentMoniker": "Source.cpp",
-              "ToolTip": "C:\\Users\\silva\\Documents\\dev\\openingGL\\4. transformations\\transformations\\Source.cpp*",
-              "RelativeToolTip": "Source.cpp*",
-              "ViewState": "AgIAAHsAAAAAAAAAAAAAAKEAAAACAAAAAAAAAA==",
+              "ToolTip": "C:\\Users\\silva\\Documents\\dev\\openingGL\\4. transformations\\transformations\\Source.cpp",
+              "RelativeToolTip": "Source.cpp",
+              "ViewState": "AgIAAHcAAAAAAAAAAAAAwIsAAAAXAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
               "WhenOpened": "2025-01-30T14:58:35.112Z",
               "EditorCaption": ""

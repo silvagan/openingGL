@@ -108,10 +108,10 @@ int main() {
 	//glTexParameteri(GL_TEXTURE_2D, GL_TEXTURE_MAG_FILTER, GL_LINEAR);
 	int w2, h2, nrCh2;
 	stbi_set_flip_vertically_on_load(true);
-	unsigned char* data2 = stbi_load("awesomeface.png", &w2, &h2, &nrCh2, 0);
+	unsigned char* data2 = stbi_load("1.png", &w2, &h2, &nrCh2, 0);
 	if (data2)
 	{
-		glTexImage2D(GL_TEXTURE_2D, 0, GL_RGB, w2, h2, 0, GL_RGBA, GL_UNSIGNED_BYTE, data2);
+		glTexImage2D(GL_TEXTURE_2D, 0, GL_RGBA, w2, h2, 0, GL_RGB, GL_UNSIGNED_BYTE, data2);
 		glGenerateMipmap(GL_TEXTURE_2D);
 	}
 	else
@@ -134,7 +134,7 @@ int main() {
 		ourShader.use();
 
 		//bg color
-		glClearColor(0.0f, 0.3f, 0.3f, 1.0f);
+		glClearColor(0.0f, 0.0f, 0.0f, 1.0f);
 		glClear(GL_COLOR_BUFFER_BIT);
 
 		processInput(window);
@@ -151,16 +151,38 @@ int main() {
 		//first transform
 		glm::mat4 trans1 = glm::mat4(1.0f);
 		trans1 = glm::rotate(trans1, (float)glfwGetTime(), glm::vec3(0.0f, 0.0f, 1.0f));
+		trans1 = glm::translate(trans1, glm::vec3(-0.5f, -0.5f, 0.0f));
+		trans1 = glm::scale(trans1, glm::vec3(cos(glfwGetTime()), cos(glfwGetTime()), 0.0f));
 
 		glUniformMatrix4fv(glGetUniformLocation(ourShader.ID, "transform"), 1, GL_FALSE, glm::value_ptr(trans1));
 		glDrawElements(GL_TRIANGLES, 6, GL_UNSIGNED_INT, 0);
 
 		//second transform
 		glm::mat4 trans2 = glm::mat4(1.0f);
+		trans2 = glm::rotate(trans2, (float)glfwGetTime() / 2, glm::vec3(1.0f, 1.0f, 1.0f));
 		trans2 = glm::translate(trans2, glm::vec3(-0.5f, 0.5f, 0.0f));
 		trans2 = glm::scale(trans2, glm::vec3(sin(glfwGetTime()), sin(glfwGetTime()), sin(glfwGetTime())));
 
 		glUniformMatrix4fv(glGetUniformLocation(ourShader.ID, "transform"), 1, GL_FALSE, glm::value_ptr(trans2));
+		glDrawElements(GL_TRIANGLES, 6, GL_UNSIGNED_INT, 0);
+
+		//third transform
+		glm::mat4 trans3 = glm::mat4(1.0f);
+		trans3 = glm::rotate(trans3, (float)glfwGetTime() / 2, glm::vec3(0.0f, 1.0f, 1.0f));
+		trans3 = glm::translate(trans3, glm::vec3(0.5f, 0.5f, 0.0f));
+		trans3 = glm::scale(trans3, glm::vec3(cos(glfwGetTime()), sin(glfwGetTime()), cos(glfwGetTime())));
+		trans3 = glm::rotate(trans3, (float)glfwGetTime(), glm::vec3(1.0f,1.0f,1.0f));
+		glUniformMatrix4fv(glGetUniformLocation(ourShader.ID, "transform"), 1, GL_FALSE, glm::value_ptr(trans3));
+		glDrawElements(GL_TRIANGLES, 6, GL_UNSIGNED_INT, 0);
+
+		//fourth transform
+		glm::mat4 trans4 = glm::mat4(1.0f);
+		trans4 = glm::rotate(trans4, (float)glfwGetTime()/2, glm::vec3(1.0f, 1.0f, 1.0f));
+		trans4 = glm::translate(trans4, glm::vec3(0.5f, -0.5f, 0.0f));
+		trans4 = glm::scale(trans4, glm::vec3(cos(glfwGetTime()), sin(glfwGetTime()), sin(glfwGetTime())));
+		trans4 = glm::rotate(trans4, (float)glfwGetTime(), glm::vec3(1.0f, 1.0f, 1.0f));
+
+		glUniformMatrix4fv(glGetUniformLocation(ourShader.ID, "transform"), 1, GL_FALSE, glm::value_ptr(trans4));
 		glDrawElements(GL_TRIANGLES, 6, GL_UNSIGNED_INT, 0);
 
 		glfwSwapBuffers(window);
