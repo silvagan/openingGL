@@ -7,6 +7,10 @@
       "RelativeMoniker": "D:0:0:{294A9E67-68D2-40B7-9B99-923A5D01C063}|coordinate systems.vcxproj|solutionrelative:Source.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
     },
     {
+      "AbsoluteMoniker": "D:0:0:{294A9E67-68D2-40B7-9B99-923A5D01C063}|coordinate systems.vcxproj|C:\\Users\\silva\\Documents\\dev\\openingGL\\5. coordinate systems\\coordinate systems\\shader.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{294A9E67-68D2-40B7-9B99-923A5D01C063}|coordinate systems.vcxproj|solutionrelative:shader.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{294A9E67-68D2-40B7-9B99-923A5D01C063}|coordinate systems.vcxproj|C:\\Users\\silva\\Documents\\dev\\openingGL\\5. coordinate systems\\coordinate systems\\image.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
       "RelativeMoniker": "D:0:0:{294A9E67-68D2-40B7-9B99-923A5D01C063}|coordinate systems.vcxproj|solutionrelative:image.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
     },
@@ -26,11 +30,37 @@
       "DocumentGroups": [
         {
           "DockedWidth": 226,
-          "SelectedChildIndex": 3,
+          "SelectedChildIndex": 0,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 0,
+              "Title": "Source.cpp",
+              "DocumentMoniker": "C:\\Users\\silva\\Documents\\dev\\openingGL\\5. coordinate systems\\coordinate systems\\Source.cpp",
+              "RelativeDocumentMoniker": "Source.cpp",
+              "ToolTip": "C:\\Users\\silva\\Documents\\dev\\openingGL\\5. coordinate systems\\coordinate systems\\Source.cpp",
+              "RelativeToolTip": "Source.cpp",
+              "ViewState": "AgIAAMUAAAAAAAAAAAAAwOQAAAA8AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
+              "WhenOpened": "2025-02-07T08:20:56.949Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "shader.h",
+              "DocumentMoniker": "C:\\Users\\silva\\Documents\\dev\\openingGL\\5. coordinate systems\\coordinate systems\\shader.h",
+              "RelativeDocumentMoniker": "shader.h",
+              "ToolTip": "C:\\Users\\silva\\Documents\\dev\\openingGL\\5. coordinate systems\\coordinate systems\\shader.h",
+              "RelativeToolTip": "shader.h",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAMAAAARAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
+              "WhenOpened": "2025-02-10T20:59:29.335Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
               "Title": "fragment.glsl",
               "DocumentMoniker": "C:\\Users\\silva\\Documents\\dev\\openingGL\\5. coordinate systems\\coordinate systems\\shaders\\fragment.glsl",
               "RelativeDocumentMoniker": "shaders\\fragment.glsl",
@@ -42,7 +72,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 3,
               "Title": "vertex.glsl",
               "DocumentMoniker": "C:\\Users\\silva\\Documents\\dev\\openingGL\\5. coordinate systems\\coordinate systems\\shaders\\vertex.glsl",
               "RelativeDocumentMoniker": "shaders\\vertex.glsl",
@@ -54,7 +84,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 2,
               "Title": "image.cpp",
               "DocumentMoniker": "C:\\Users\\silva\\Documents\\dev\\openingGL\\5. coordinate systems\\coordinate systems\\image.cpp",
               "RelativeDocumentMoniker": "image.cpp",
@@ -62,19 +92,7 @@
               "RelativeToolTip": "image.cpp",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAEAAAAWAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
-              "WhenOpened": "2025-02-07T08:21:31.084Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "Source.cpp",
-              "DocumentMoniker": "C:\\Users\\silva\\Documents\\dev\\openingGL\\5. coordinate systems\\coordinate systems\\Source.cpp",
-              "RelativeDocumentMoniker": "Source.cpp",
-              "ToolTip": "C:\\Users\\silva\\Documents\\dev\\openingGL\\5. coordinate systems\\coordinate systems\\Source.cpp",
-              "RelativeToolTip": "Source.cpp",
-              "ViewState": "AgIAAKIAAAAAAAAAAAAAALMAAAASAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
-              "WhenOpened": "2025-02-07T08:20:56.949Z",
+              "WhenOpened": "2025-02-07T08:21:31.084Z",
               "EditorCaption": ""
             }
           ]

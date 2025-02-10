@@ -39,6 +39,32 @@ int main() {
 
 	Shader ourShader("shaders/vertex.glsl", "shaders/fragment.glsl");
 
+	glm::vec3 cubePositions[] = {
+		glm::vec3(0.0f, 0.0f, 0.0f),
+		glm::vec3(2.0f,  5.0f, -15.0f),
+		glm::vec3(-1.5f, -2.2f, -2.5f),
+		glm::vec3(-3.8f, -2.0f, -12.3f),
+		glm::vec3(2.4f, -0.4f, -3.5f),
+		glm::vec3(-1.7f,  3.0f, -7.5f),
+		glm::vec3(1.3f, -2.0f, -2.5f),
+		glm::vec3(1.5f,  2.0f, -2.5f),
+		glm::vec3(1.5f,  0.2f, -1.5f),
+		glm::vec3(-1.3f,  1.0f, -1.5f)
+	};
+
+	glm::mat4 models[] = {
+	glm::mat4(1.0f),
+	glm::mat4(1.0f),
+	glm::mat4(1.0f),
+	glm::mat4(1.0f),
+	glm::mat4(1.0f),
+	glm::mat4(1.0f),
+	glm::mat4(1.0f),
+	glm::mat4(1.0f),
+	glm::mat4(1.0f),
+	glm::mat4(1.0f)
+	};
+
 	float vertices[] = {
 		-0.5f, -0.5f, -0.5f,  0.0f, 0.0f,
 		 0.5f, -0.5f, -0.5f,  1.0f, 0.0f,
@@ -176,6 +202,7 @@ int main() {
 	int projectionLoc = glGetUniformLocation(ourShader.ID, "projection");
 	glUniformMatrix4fv(projectionLoc, 1, GL_FALSE, glm::value_ptr(projection));
 
+	bool initial = true;
 	while (!glfwWindowShouldClose(window)) {
 		ourShader.use();
 
@@ -194,10 +221,30 @@ int main() {
 		//set vertices to draw
 		glBindVertexArray(VAO);
 
-		model = glm::rotate(model, glm::radians(0.8f), glm::vec3(0.2f, 0.2f, 1.0f));
+		for (unsigned int i = 0; i < 10; i++)
+		{
+			float angle = 20.0f * i;
+			if (initial)
+			{
+				models[i] = glm::translate(models[i], cubePositions[i]);
+				models[i] = glm::rotate(models[i], glm::radians(angle), glm::vec3(1.0f, 0.3f, 0.5f));
+			}
+			else if (i % 3 == 0)
+			{
+				models[i] = glm::rotate(models[i], glm::radians(0.8f), glm::vec3(0.2f, 0.2f, 1.0f));
+			}
 
-		glUniformMatrix4fv(modelLoc, 1, GL_FALSE, glm::value_ptr(model));
-		glDrawArrays(GL_TRIANGLES, 0, 36);
+			ourShader.setMat4("model", models[i]);
+
+			glDrawArrays(GL_TRIANGLES, 0, 36);
+		}
+
+		initial = false;
+
+		//model = glm::rotate(model, glm::radians(0.8f), glm::vec3(0.2f, 0.2f, 1.0f));
+
+		//ourShader.setMat4("model", model);
+		//glDrawArrays(GL_TRIANGLES, 0, 36);
 
 		glfwSwapBuffers(window);
 		glfwPollEvents();
