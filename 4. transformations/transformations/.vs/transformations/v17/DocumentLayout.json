@@ -38,8 +38,7 @@
               "RelativeToolTip": "shaders\\fragment.glsl",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAABOAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001001|",
-              "WhenOpened": "2025-02-04T08:24:20.94Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-02-04T08:24:20.94Z"
             },
             {
               "$type": "Document",
@@ -51,8 +50,7 @@
               "RelativeToolTip": "shaders\\vertex.glsl",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAABAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001001|",
-              "WhenOpened": "2025-01-30T17:50:52.941Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-01-30T17:50:52.941Z"
             },
             {
               "$type": "Document",
@@ -64,8 +62,7 @@
               "RelativeToolTip": "shader.h",
               "ViewState": "AgIAAAwAAAAAAAAAAAAjwCkAAAAHAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
-              "WhenOpened": "2025-01-30T15:17:56.567Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-01-30T15:17:56.567Z"
             },
             {
               "$type": "Document",
@@ -75,7 +72,7 @@
               "RelativeDocumentMoniker": "Source.cpp",
               "ToolTip": "C:\\Users\\silva\\Documents\\dev\\openingGL\\4. transformations\\transformations\\Source.cpp",
               "RelativeToolTip": "Source.cpp",
-              "ViewState": "AgIAAHcAAAAAAAAAAAAAwIsAAAAXAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABAAAAACAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
               "WhenOpened": "2025-01-30T14:58:35.112Z",
               "EditorCaption": ""
