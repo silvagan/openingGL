@@ -41,15 +41,15 @@ int main() {
 
 	glm::vec3 cubePositions[] = {
 		glm::vec3(0.0f, 0.0f, 0.0f),
-		glm::vec3(2.0f,  5.0f, -15.0f),
+		glm::vec3(2.0f,  5.0f, -8.0f),
 		glm::vec3(-1.5f, -2.2f, -2.5f),
-		glm::vec3(-3.8f, -2.0f, -12.3f),
+		glm::vec3(-3.8f, -7.0f, 9.3f),
 		glm::vec3(2.4f, -0.4f, -3.5f),
-		glm::vec3(-1.7f,  3.0f, -7.5f),
-		glm::vec3(1.3f, -2.0f, -2.5f),
-		glm::vec3(1.5f,  2.0f, -2.5f),
+		glm::vec3(-1.7f,  3.0f, 7.5f),
+		glm::vec3(1.3f, -2.0f, 2.5f),
+		glm::vec3(1.5f,  7.0f, 2.5f),
 		glm::vec3(1.5f,  0.2f, -1.5f),
-		glm::vec3(-1.3f,  1.0f, -1.5f)
+		glm::vec3(-1.3f,  1.0f, 1.5f)
 	};
 
 	glm::mat4 models[] = {
@@ -188,10 +188,11 @@ int main() {
 	model = glm::rotate(model, glm::radians(135.0f), glm::vec3(1.0f, 0.0f, 0.0f));
 
 	glm::mat4 view = glm::mat4(1.0f);
-	view = glm::translate(view, glm::vec3(0.0f, 0.0f, -3.0f));
+	view = glm::translate(view, glm::vec3(0.0f, 0.0f, -10.0f));
 
 	glm::mat4 projection;
 	projection = glm::perspective(glm::radians(45.0f), 800.0f / 600.0f, 0.1f, 100.0f);
+	//projection = glm::translate(projection, glm::vec3(-20.0f, 0.0f, 0.0f));
 
 	int modelLoc = glGetUniformLocation(ourShader.ID, "model");
 	glUniformMatrix4fv(modelLoc, 1, GL_FALSE, glm::value_ptr(model));
@@ -200,11 +201,15 @@ int main() {
 	glUniformMatrix4fv(viewLoc, 1, GL_FALSE, glm::value_ptr(view));
 
 	int projectionLoc = glGetUniformLocation(ourShader.ID, "projection");
+	projection = glm::rotate(projection, glm::radians(0.8f), glm::vec3(1.0f, 0.0f, 0.0f));
 	glUniformMatrix4fv(projectionLoc, 1, GL_FALSE, glm::value_ptr(projection));
 
 	bool initial = true;
 	while (!glfwWindowShouldClose(window)) {
 		ourShader.use();
+
+		view = glm::rotate(view, glm::radians(0.2f), glm::vec3(0.0f, 1.0f, 0.0f));
+		glUniformMatrix4fv(viewLoc, 1, GL_FALSE, glm::value_ptr(view));
 
 		//bg color
 		glClearColor(0.0f, 0.0f, 0.0f, 1.0f);

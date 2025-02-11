@@ -15,9 +15,9 @@ https://learnopengl.com/
 
 ~~Textures~~
 
-* Transformations (1/3)
+~~Transformations~~
 
-Coordinate Systems
+~~Coordinate Systems~~
 
 Camera
 

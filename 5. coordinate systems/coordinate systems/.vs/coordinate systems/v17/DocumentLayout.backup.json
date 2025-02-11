@@ -38,9 +38,9 @@
               "Title": "Source.cpp",
               "DocumentMoniker": "C:\\Users\\silva\\Documents\\dev\\openingGL\\5. coordinate systems\\coordinate systems\\Source.cpp",
               "RelativeDocumentMoniker": "Source.cpp",
-              "ToolTip": "C:\\Users\\silva\\Documents\\dev\\openingGL\\5. coordinate systems\\coordinate systems\\Source.cpp",
-              "RelativeToolTip": "Source.cpp",
-              "ViewState": "AgIAAMUAAAAAAAAAAAAAwPAAAAAAAAAAAAAAAA==",
+              "ToolTip": "C:\\Users\\silva\\Documents\\dev\\openingGL\\5. coordinate systems\\coordinate systems\\Source.cpp*",
+              "RelativeToolTip": "Source.cpp*",
+              "ViewState": "AgIAABsAAAAAAAAAAAAAADMAAAAaAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
               "WhenOpened": "2025-02-07T08:20:56.949Z",
               "EditorCaption": ""
@@ -55,8 +55,7 @@
               "RelativeToolTip": "shader.h",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAMAAAARAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
-              "WhenOpened": "2025-02-10T20:59:29.335Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-02-10T20:59:29.335Z"
             },
             {
               "$type": "Document",
@@ -92,8 +91,7 @@
               "RelativeToolTip": "image.cpp",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAEAAAAWAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
-              "WhenOpened": "2025-02-07T08:21:31.084Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-02-07T08:21:31.084Z"
             }
           ]
         }
