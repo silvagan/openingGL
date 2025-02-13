@@ -10,6 +10,7 @@ void framebuffer_size_callback(GLFWwindow* window, int width, int height);
 void processInput(GLFWwindow* window);
 void mouse_callback(GLFWwindow* window, double xpos, double ypos);
 void scroll_callback(GLFWwindow* window, double xoffset, double yoffset);
+glm::mat4 lookAt(glm::vec3 position, glm::vec3 direction, glm::vec3 up);
 
 const unsigned int width = 800;
 const unsigned int height = 600;
@@ -228,13 +229,14 @@ int main() {
 		deltaTime = currentFrame - lastFrame;
 		lastFrame = currentFrame;
 
-
 		ourShader.use();
 
 		//float camX = sin(glfwGetTime()) * radius;
 		//float camZ = cos(glfwGetTime()) * radius;
 		glm::mat4 view;
-		view = glm::lookAt(cameraPos, cameraPos + cameraFront, cameraUp);
+		//view = glm::lookAt(cameraPos, cameraPos + cameraFront, cameraUp);
+		view = lookAt(cameraPos, cameraPos + cameraFront, cameraUp);
+
 
 		int viewLoc = glGetUniformLocation(ourShader.ID, "view");
 		glUniformMatrix4fv(viewLoc, 1, GL_FALSE, glm::value_ptr(view));
@@ -356,4 +358,39 @@ void scroll_callback(GLFWwindow* window, double xoffset, double yoffset)
 		fov = 1.0f;
 	if (fov > 45.0f)
 		fov = 45.0f;
+}
+
+glm::mat4 lookAt(glm::vec3 position, glm::vec3 target, glm::vec3 up)
+{
+	glm::vec3 direction = glm::normalize(position - target);
+	glm::vec3 right = glm::normalize(glm::cross(up, direction));
+	glm::vec3 cup = glm::cross(direction, right);
+
+	//glm::mat4 apparently is constustructed in column-major order instead of row-major...
+	//                                                        thats diabolical
+	//													the code below is therefore wrong
+	//glm::mat4 rotation = glm::mat4(
+	//	right.x,		right.y,		right.z,		0,
+	//	cup.x,			cup.y,			cup.z,			0,
+	//	direction.x,	direction.y,	direction.z,	0,
+	//	0,				0,				0,				1);
+	//glm::mat4 translation = glm::mat4(
+	//	1, 0, 0, -position.x,
+	//	0, 1, 0, -position.y,
+	//	0, 0, 1, -position.z,
+	//	0, 0, 0, 1);
+
+	//fixed code
+	glm::mat4 rotation = glm::mat4(
+		right.x, cup.x, direction.x, 0,
+		right.y, cup.y, direction.y, 0,
+		right.z, cup.z, direction.z, 0,
+		0, 0, 0, 1);
+	glm::mat4 translation = glm::mat4(
+		1, 0, 0, 0,
+		0, 1, 0, 0,
+		0, 0, 1, 0,
+		-position.x, -position.y, -position.z, 1);
+
+	return rotation * translation;
 }
