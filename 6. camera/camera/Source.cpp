@@ -297,15 +297,21 @@ void processInput(GLFWwindow* window)
 	if (glfwGetKey(window, GLFW_KEY_ESCAPE) == GLFW_PRESS)
 		glfwSetWindowShouldClose(window, true);
 
+	glm::vec3 direction;
+	direction.x = cos(glm::radians(yaw));
+	direction.y = 0;
+	direction.z = sin(glm::radians(yaw));
+	glm::vec3 front = glm::normalize(direction);
+
 	const float cameraSpeed = 2.5f;
 	if (glfwGetKey(window, GLFW_KEY_W) == GLFW_PRESS)
-		cameraPos += cameraSpeed * cameraFront * deltaTime;
+		cameraPos += cameraSpeed * front * deltaTime;
 	if (glfwGetKey(window, GLFW_KEY_S) == GLFW_PRESS)
-		cameraPos -= cameraSpeed * cameraFront * deltaTime;
+		cameraPos -= cameraSpeed * front * deltaTime;
 	if (glfwGetKey(window, GLFW_KEY_A) == GLFW_PRESS)
-		cameraPos -= glm::normalize(glm::cross(cameraFront, cameraUp)) * cameraSpeed * deltaTime;
+		cameraPos -= glm::normalize(glm::cross(front, cameraUp)) * cameraSpeed * deltaTime;
 	if (glfwGetKey(window, GLFW_KEY_D) == GLFW_PRESS)
-		cameraPos += glm::normalize(glm::cross(cameraFront, cameraUp)) * cameraSpeed * deltaTime;
+		cameraPos += glm::normalize(glm::cross(front, cameraUp)) * cameraSpeed * deltaTime;
 }
 void framebuffer_size_callback(GLFWwindow* window, int width, int height) {
 	glViewport(0, 0, width, height);
